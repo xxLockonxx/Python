@@ -78,3 +78,31 @@ print('joinabcd :', joinabcd)
 
 joinabc = ",".join(['a', 'b', 'c', 'd'])
 print('a,b,c,d : ', joinabc)
+
+# 소문자를 대문자로 바꾸기(upper)
+a = "hi"
+print("a.upper()", a.upper())
+
+# 대문자를 소문자로 바꾸기(lower)
+a = "HI"
+print("a.lower()", a.lower())
+
+# 왼쪽 공백 지우기(lstrip)
+a = " hi "
+print(a.lstrip())
+
+# 오른쪽 공백 지우기(rstrip)
+print(a.rstrip())
+
+# 양쪽 공백 지우기(strip)
+print(a.strip())
+
+# 문자열 바꾸기(replace)
+a = "Life is too short"
+print(a.replace("Life", "Your leg"))
+
+# 문자열 나누기(split)
+print(a.split())
+
+b="a:b:c:d"
+print(b.split(':'))
