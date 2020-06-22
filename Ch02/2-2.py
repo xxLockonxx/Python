@@ -68,5 +68,13 @@ print('findk: ', findk)
 a = "Life is too short"
 indext = a.index('t')
 print('indext :', indext)
-indexk = a.index('k')
-print('indexk :', indexk)
+#indexk = a.index('k')
+#print('indexk :', indexk) k가 없어서 오류발생
+
+
+# 문자열 삽입(join)
+joinabcd = ",".join('abcd')
+print('joinabcd :', joinabcd)
+
+joinabc = ",".join(['a', 'b', 'c', 'd'])
+print('a,b,c,d : ', joinabc)
