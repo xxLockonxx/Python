@@ -56,10 +56,18 @@ if __name__ == '__main__':
         else:
             print('파일을 추가하세요.')
 
-
-
-
-
 # try ~ except ... else
 if __name__=='__main__':
-    pass
+    try:
+        animal = ['사자', '호랑이', '코끼리', '기린']
+        print('동물 선택')
+        print('1:사자, 2:호랑이, 3:코끼리, 4:기린')
+
+        i = int(input('숫자입력 : '))
+        print('선택한 동물 :', animal[i-1])
+
+    except:
+        print('잘못 선택 하셨습니다.')
+    else:
+        # try블럭이 정상 실행된 후 실행되는 블럭
+        print('잘 선택 하셨습니다.')
