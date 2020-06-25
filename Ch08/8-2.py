@@ -28,3 +28,5 @@ for row in cur.fetchall():
 
 # 데이터베이스 종료
 conn.close()
+
+
